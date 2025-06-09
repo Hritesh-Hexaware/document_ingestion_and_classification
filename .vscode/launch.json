@@ -1,0 +1,29 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Extractor Service",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "extractor_service.py",
+      "console": "integratedTerminal"
+    },
+    {
+        "name": "Receiver Service",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "receiver_service.py",
+        "console": "integratedTerminal"
+      },
+    {
+      "name": "Orchestrator Service",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "orchestrator_service.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
